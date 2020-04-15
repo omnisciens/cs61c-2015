@@ -7,7 +7,7 @@ typedef struct node {
 
 /* FIXME: this function is buggy. */
 int ll_equal(const node* a, const node* b) {
-	while (a && b) { /* must test b != NULL also, NULL is false */
+	while (a && b) { /* must also test b != NULL, NULL is false */
 		if (a->val != b->val)
 			return 0;
 		a = a->next;
