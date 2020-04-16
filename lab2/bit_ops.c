@@ -12,7 +12,7 @@ unsigned get_bit(unsigned x,
               ----------
        return 0b00000001 */
     x >>= n;
-    return (x & 1);
+    return (x & 0b1);
 }
 
 // Set the nth bit of the value of x to v.
@@ -20,17 +20,15 @@ unsigned get_bit(unsigned x,
 void set_bit(unsigned *x,
              unsigned n,
              unsigned v) {
-    *x &= ~(1 << n);
+    *x &= ~(0b1 << n);
     *x |= v << n;
 }
 // Flip the nth bit of the value of x.
 // Assume 0 <= n <= 31
 void flip_bit(unsigned *x,
               unsigned n) {
-    int *p;
-    *p = *x;
-    unsigned y = get_bit(*p, n);
-    set_bit(p, n, ~y);
+    unsigned y = get_bit(*x, n);
+    set_bit(x, n, (~y & 0b1));
 }
 
 
