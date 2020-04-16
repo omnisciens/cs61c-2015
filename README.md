@@ -1,2 +1,2 @@
 # cs61c-2015
-CS61C Spring 2015
+CS61c Spring 2015
