@@ -1,3 +1,8 @@
+
+/*
+Fix the buggy function ll_equal!
+*/
+
 #include <stdio.h>
 
 typedef struct node {
