@@ -1,15 +1,3 @@
-/**
-Play around with the constant values of the four macro: V0 through V3. See how changing them changes the 
-program output. Modifying only these four values, make the program produce the following output.
-
-Berkeley eccentrics:
-====================
-Happy Happy Happy
-Yoshua
-
-Go BEARS!
-*/
-
 #include <stdio.h>
 
 /* Only change any of these 4 values */

@@ -1,9 +1,3 @@
-/*
-Implement the following three bit manipulation functions. You will want to use bitwise operations such as 
-and (&), or (|), xor (^), not (~), left shifts (<<), and right shifts (>>). Avoid using any loops or 
-conditional statements.
-*/
-
 #include <stdio.h>
 
 // Return the nth bit of x.

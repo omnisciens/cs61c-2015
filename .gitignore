@@ -1,5 +1,10 @@
 *
 
 !*.c
+!*.h
+!*.pyc
+!*.sh
+!*.s
+!*.pdf
 !Makefile
 !/*

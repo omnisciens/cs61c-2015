@@ -1,8 +1,3 @@
-/*
-Implement lfsr_calculate()!
-https://en.wikipedia.org/wiki/Linear-feedback_shift_register
-*/
-
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>

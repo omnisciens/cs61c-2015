@@ -1,11 +1,3 @@
-/*
-Your task is to fill in the functions vector_delete() and vector_set() in vector.c so that our test code 
-vector-test.c runs without any memory management errors. Comments in the code describe how the functions 
-should work. Look at the functions we've filled in to see how the data structures should be used. 
-For consistency, it is assumed that all entries in the vector are 0 unless set by the user. Keep this in 
-mind as malloc() does not zero out the memory it allocates.
-*/
-
 /* Include the system headers we need */
 #include <stdlib.h>
 #include <stdio.h>
